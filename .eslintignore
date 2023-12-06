@@ -1,3 +1,5 @@
 node_modules/
 dist/
 public/
+lint-staged.config.js
+postcss.config.js
