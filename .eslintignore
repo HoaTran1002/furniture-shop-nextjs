@@ -3,3 +3,4 @@ dist/
 public/
 lint-staged.config.js
 postcss.config.js
+src/components/ui
