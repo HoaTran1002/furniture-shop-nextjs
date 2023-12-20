@@ -1,6 +1,6 @@
 import Link from 'next/link'
 import { MainNav } from './main-nav'
-import { UserNav } from './user-nav'
+// import { UserNav } from './user-nav'
 
 const Header = () => {
   return (
@@ -10,9 +10,6 @@ const Header = () => {
           Furniture
         </Link>
         <MainNav />
-        <div className=''>
-          <UserNav />
-        </div>
       </nav>
     </header>
   )

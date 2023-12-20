@@ -5,6 +5,14 @@ const nextConfig = {
       {
         protocol: 'https',
         hostname: 'i.dummyjson.com'
+      },
+      {
+        protocol: 'https',
+        hostname: 'd2dwxeidp9b9gl.cloudfront.net'
+      },
+      {
+        protocol: 'https',
+        hostname: '**'
       }
     ]
   }

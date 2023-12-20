@@ -1,3 +1,4 @@
+import image from '@/assets/inspiration1.png'
 import Breadcrumbs from '@/components/breadcrumbs'
 import CardProduct from '@/components/shop/card-product'
 import Sort from '@/components/shop/sort'
@@ -6,20 +7,8 @@ import { cn } from '@/lib/utils'
 import { ListChecks } from 'lucide-react'
 import Link from 'next/link'
 import Filter from '../../../components/shop/filter'
-import image from '@/assets/inspiration1.png'
 
-const DelayFun = () =>
-  new Promise((resolve) => {
-    setTimeout(() => {
-      fetch('https://dummyjson.com/products')
-        .then((res) => resolve(res.json()))
-        .catch(console.log)
-    }, 3000)
-  })
-
-const Shop = async () => {
-  ;(await DelayFun()) as any
-
+const Shop = () => {
   return (
     <div className='container py-20'>
       <div className='text-center'>
